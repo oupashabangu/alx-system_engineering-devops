@@ -9,3 +9,4 @@ mv move or rename files
 rm delete or files
 rm -r delete directory
 cd . change working directory to previous
+ls -al .. list files with period charectors
