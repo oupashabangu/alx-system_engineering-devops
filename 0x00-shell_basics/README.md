@@ -12,3 +12,4 @@ cd - change working directory to previous
 ls -al . .. list files with period charectors
 file prints type of file
 ln -s create symbolic _link
+cp -u *.html copy all htm files
