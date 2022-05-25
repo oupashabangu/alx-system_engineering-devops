@@ -11,4 +11,4 @@ rm -r delete directory
 cd - change working directory to previous
 ls -al . .. list files with period charectors
 file prints type of file
-ln -s create symbolic link
+ln -s create symbolic _link
