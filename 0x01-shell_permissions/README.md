@@ -9,3 +9,4 @@ chmod ugo+x adds execute permission to everyone
 chmod 007 adds no permissions to owner and group and all permissions to others
 chmod 753 sets mode to -rwxr-x-wx
 chmod --reference=Rfile  sets mode
+chmod a+X * add execute permission to all subdirectories
