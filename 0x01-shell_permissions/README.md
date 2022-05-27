@@ -14,3 +14,4 @@ mkdir -m 751 creates a directory and give it permission
 chgrp changes group ownership
 chown change owner and group owner 
 chown -h changes owner and group owner and creates symbolic link
+chown --from changes owner or group  of a file to a new one 
