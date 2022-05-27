@@ -12,3 +12,4 @@ chmod --reference=Rfile  sets mode
 chmod a+X * add execute permission to all subdirectories
 mkdir -m 751 creates a directory and give it permission
 chgrp changes group ownership
+chown change owner and group owner
