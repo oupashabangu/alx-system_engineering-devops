@@ -8,3 +8,5 @@ head -n 3 iacta | tail -n 1 display the third line
 echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
 ls -la > ls_cwd_content writes into a file
 tail -1 iacta ?? iacta script that dupulicates the last line of the file
+find . -type d -not -name '.' | wc -l counts number of directories and sub-directories
+ls -t1 | head -n 10 script that prints newest files in current directorie
