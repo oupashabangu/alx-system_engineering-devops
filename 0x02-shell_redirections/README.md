@@ -18,3 +18,4 @@ grep -i -v "bin" display all the lines in the file
 grep -i "^[a-z]"displays all lines of the file	
 tr "A" "Z" | tr "c" "e" removes all charactors
 tr -d "cC" remove all letters
+rev reverse it input
