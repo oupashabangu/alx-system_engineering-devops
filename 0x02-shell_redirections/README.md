@@ -16,4 +16,5 @@ grep -c -i "bin" display number of lines that contain the pattern "bin"
 grep -i "root" -A 3 display lines containing the pattern "root"
 grep -i -v "bin" display all the lines in the file
 grep -i "^[a-z]"displays all lines of the file	
-tr "A" "Z" | tr "c" "e"
+tr "A" "Z" | tr "c" "e" removes all charactors
+tr -d "cC" remove all letters
