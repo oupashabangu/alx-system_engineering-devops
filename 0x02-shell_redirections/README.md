@@ -12,4 +12,6 @@ find . -type d -not -name '.' | wc -l counts number of directories and sub-direc
 ls -t1 | head -n 10 script that prints newest files in current directories
 sort | uniq -u takes words as inputs and and prints words that only apear exactly once
 grep -i "root" /etc/passwd display line containing pattern "root"
-gre -c -i "bin" display number of lines that contain the pattern "bin"
+grep -c -i "bin" display number of lines that contain the pattern "bin"
+grep -i "root" -A 3 display lines containing the pattern "root"
+grep -i -v "bin" display all the lines in the file
