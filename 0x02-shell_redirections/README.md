@@ -21,3 +21,5 @@ tr -d "cC" remove all letters
 rev reverse it input
 cut -d ':' -f 1.6 display all users and their home directories
 find . -empty | rev |cut -d '/' -f l | rev finds all empty files and directories
+find -type f -name "*.gif" list all files with .gif
+cut -c 1 | paste -s -d '' 
