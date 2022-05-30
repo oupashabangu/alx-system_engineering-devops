@@ -6,3 +6,4 @@ tail -10 /etc/passwd display the last 10 lines
 head -10 /etc/psswd display the first 10 lines
 head -n 3 iacta | tail -n 1 display the third line
 echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+ls -la > ls_cwd_content writes into a file
