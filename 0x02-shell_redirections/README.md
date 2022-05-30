@@ -7,3 +7,4 @@ head -10 /etc/psswd display the first 10 lines
 head -n 3 iacta | tail -n 1 display the third line
 echo "Best School" > "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
 ls -la > ls_cwd_content writes into a file
+tail -1 iacta ?? iacta script that dupulicates the last line of the file
