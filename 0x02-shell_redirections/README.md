@@ -19,3 +19,4 @@ grep -i "^[a-z]"displays all lines of the file
 tr "A" "Z" | tr "c" "e" removes all charactors
 tr -d "cC" remove all letters
 rev reverse it input
+cut -d ':' -f 1.6 display all users and their home directories
