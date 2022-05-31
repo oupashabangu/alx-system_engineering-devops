@@ -10,4 +10,5 @@ echo $(( 128+TRUEKNOWLEDGE)) prints results of the additiona of 128 with the val
 echo $((POWER / DIVIDE)) prints results of POWER divided by DIVIDE
 echo $((BREATH ** LOVE)) displays the result of BREATH to the power LOVE
 echo $(( 2#$BINARY)) converts a number from base 2 to base 10
-printf "%.2f\n" $NUM prints all possible combination
+echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" prints all possible combination
+printf "%.2f\n" $NUM prints a number with two decimal places
